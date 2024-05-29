@@ -1,7 +1,7 @@
 {
   "resourceType": "GMFont",
   "resourceVersion": "1.0",
-  "name": "fnt_MainMenu",
+  "name": "fnt_Menu",
   "hinting": 0,
   "glyphOperations": 0,
   "interpreter": 0,
