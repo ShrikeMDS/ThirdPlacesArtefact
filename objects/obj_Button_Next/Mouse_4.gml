@@ -10,7 +10,7 @@ if (room == rm_Tutorial)
 
 	if (Tutorial_Text_Num == array_length(Tutorial_Text))
 	{
-	    room_goto(rm_MainMenu);
+	    room_goto(rm_Activity_Select);
 	}
 	else if (room == rm_Tutorial)
 	{
@@ -80,9 +80,13 @@ if (room == rm_Tutorial)
 	}
 }
 
+if (room == rm_Activity_Select)
+{
+	room_goto(rm_Weeks_End)
+}
 
 if (room == rm_Weeks_End)
 {
-	obj_GameController.fn_Next_Week();
+	fn_Next_Week();
 }
 	
