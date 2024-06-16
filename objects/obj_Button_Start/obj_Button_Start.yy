@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_Button_Start",
   "spriteId": {
-    "name": "spr_MenuButton",
-    "path": "sprites/spr_MenuButton/spr_MenuButton.yy",
+    "name": "spr_Play_Button",
+    "path": "sprites/spr_Play_Button/spr_Play_Button.yy",
   },
   "solid": false,
   "visible": true,
@@ -29,6 +29,7 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [

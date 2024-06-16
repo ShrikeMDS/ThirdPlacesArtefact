@@ -1,20 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Button_Quit",
+  "name": "obj_Tutorial_Test",
   "spriteId": {
-    "name": "spr_Quit_Button",
-    "path": "sprites/spr_Quit_Button/spr_Quit_Button.yy",
+    "name": "spr_Empty",
+    "path": "sprites/spr_Empty/spr_Empty.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_Button_Parent",
-    "path": "objects/obj_Button_Parent/obj_Button_Parent.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -28,13 +25,13 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
   ],
-  "properties": [],
-  "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"button_text","path":"objects/obj_Button_Parent/obj_Button_Parent.yy",},"objectId":{"name":"obj_Button_Parent","path":"objects/obj_Button_Parent/obj_Button_Parent.yy",},"value":"Quit",},
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"text_header","varType":2,"value":"This is an example of the setup and resources","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"text_header2","varType":2,"value":"the player will be primarly interacting with.","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
   ],
+  "overriddenProperties": [],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",

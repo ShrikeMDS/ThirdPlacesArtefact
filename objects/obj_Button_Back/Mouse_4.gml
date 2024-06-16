@@ -79,3 +79,6 @@ else
     // Set the visibility of obj_Arrow_2 to false
     obj_Arrow_4.visible = false;
 }
+
+if (room == rm_Weeks_End)
+	room_goto(rm_MainMenu);
