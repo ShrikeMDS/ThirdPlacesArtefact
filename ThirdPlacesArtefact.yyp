@@ -14,6 +14,7 @@
     {"id":{"name":"spr_Activity_Mall","path":"sprites/spr_Activity_Mall/spr_Activity_Mall.yy",},"order":5,},
     {"id":{"name":"spr_BackButton","path":"sprites/spr_BackButton/spr_BackButton.yy",},"order":0,},
     {"id":{"name":"spr_NextButton","path":"sprites/spr_NextButton/spr_NextButton.yy",},"order":3,},
+    {"id":{"name":"spr_week_icon","path":"sprites/spr_week_icon/spr_week_icon.yy",},"order":24,},
     {"id":{"name":"spr_Eugene_Background","path":"sprites/spr_Eugene_Background/spr_Eugene_Background.yy",},"order":1,},
     {"id":{"name":"obj_Button_Menu","path":"objects/obj_Button_Menu/obj_Button_Menu.yy",},"order":5,},
     {"id":{"name":"spr_Peter_Background","path":"sprites/spr_Peter_Background/spr_Peter_Background.yy",},"order":3,},

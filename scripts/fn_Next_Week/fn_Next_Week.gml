@@ -15,4 +15,9 @@ function fn_Next_Week() {
     // Increment the current week
     obj_GameController.var_current_week++;
 	
+	// Adding Base Income
+	obj_Caitlin.var_money += 5;
+    obj_Eugene.var_money += 12;
+    obj_Maddie.var_money += obj_Maddie.var_money * 0.15;
+    obj_Peter.var_money += 10;
 }
