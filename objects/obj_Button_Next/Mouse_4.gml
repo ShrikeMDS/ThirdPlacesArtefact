@@ -87,6 +87,10 @@ if (room == rm_Activity_Select)
 
 if (room == rm_Weeks_End)
 {
-	fn_Next_Week();
+	fn_Next_Week(); // Script to update character Stats
+	if (obj_GameController.var_current_week == 1)
+	{
+		room_goto(rm_MiniGame_lvl1)
+	}
 }
 	

@@ -7,7 +7,7 @@
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
-  "persistent": false,
+  "persistent": true,
   "parentObjectId": {
     "name": "obj_Character_Parant",
     "path": "objects/obj_Character_Parant/obj_Character_Parant.yy",

@@ -32,7 +32,6 @@
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"var_cost","path":"objects/obj_Activity_Parant/obj_Activity_Parant.yy",},"objectId":{"name":"obj_Activity_Parant","path":"objects/obj_Activity_Parant/obj_Activity_Parant.yy",},"value":"0",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"var_gain","path":"objects/obj_Activity_Parant/obj_Activity_Parant.yy",},"objectId":{"name":"obj_Activity_Parant","path":"objects/obj_Activity_Parant/obj_Activity_Parant.yy",},"value":"5",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"var_name","path":"objects/obj_Activity_Parant/obj_Activity_Parant.yy",},"objectId":{"name":"obj_Activity_Parant","path":"objects/obj_Activity_Parant/obj_Activity_Parant.yy",},"value":"obj_Activity_VideoCall",},
   ],
   "parent": {
     "name": "Activities",

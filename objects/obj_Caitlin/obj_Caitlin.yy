@@ -7,7 +7,7 @@
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
-  "persistent": false,
+  "persistent": true,
   "parentObjectId": {
     "name": "obj_Character_Parant",
     "path": "objects/obj_Character_Parant/obj_Character_Parant.yy",
@@ -27,9 +27,9 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"var_character_name","path":"objects/obj_Character_Parant/obj_Character_Parant.yy",},"objectId":{"name":"obj_Character_Parant","path":"objects/obj_Character_Parant/obj_Character_Parant.yy",},"value":"Caitlen",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"var_character_happyness","path":"objects/obj_Character_Parant/obj_Character_Parant.yy",},"objectId":{"name":"obj_Character_Parant","path":"objects/obj_Character_Parant/obj_Character_Parant.yy",},"value":"25",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"var_money","path":"objects/obj_Character_Parant/obj_Character_Parant.yy",},"objectId":{"name":"obj_Character_Parant","path":"objects/obj_Character_Parant/obj_Character_Parant.yy",},"value":"50",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"var_character_happyness","path":"objects/obj_Character_Parant/obj_Character_Parant.yy",},"objectId":{"name":"obj_Character_Parant","path":"objects/obj_Character_Parant/obj_Character_Parant.yy",},"value":"25",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"var_character_name","path":"objects/obj_Character_Parant/obj_Character_Parant.yy",},"objectId":{"name":"obj_Character_Parant","path":"objects/obj_Character_Parant/obj_Character_Parant.yy",},"value":"Caitlin",},
   ],
   "parent": {
     "name": "Characters",

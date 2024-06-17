@@ -36,7 +36,7 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"button_text","path":"objects/obj_Button_Parent/obj_Button_Parent.yy",},"objectId":{"name":"obj_Button_Parent","path":"objects/obj_Button_Parent/obj_Button_Parent.yy",},"value":"Quit",},
   ],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Buttons",
+    "path": "folders/Objects/Buttons.yy",
   },
 }
