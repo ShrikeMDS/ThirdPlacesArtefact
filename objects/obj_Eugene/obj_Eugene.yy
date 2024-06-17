@@ -27,7 +27,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"var_character_name","path":"objects/obj_Character_Parant/obj_Character_Parant.yy",},"objectId":{"name":"obj_Character_Parant","path":"objects/obj_Character_Parant/obj_Character_Parant.yy",},"value":"Eugene",},

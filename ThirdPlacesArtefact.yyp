@@ -39,6 +39,7 @@
     {"id":{"name":"obj_Caitlin","path":"objects/obj_Caitlin/obj_Caitlin.yy",},"order":3,},
     {"id":{"name":"obj_Arrow_2","path":"objects/obj_Arrow_2/obj_Arrow_2.yy",},"order":1,},
     {"id":{"name":"spr_Eugene_Zone","path":"sprites/spr_Eugene_Zone/spr_Eugene_Zone.yy",},"order":7,},
+    {"id":{"name":"fnt_Money","path":"fonts/fnt_Money/fnt_Money.yy",},"order":1,},
     {"id":{"name":"spr_Maddie_Background","path":"sprites/spr_Maddie_Background/spr_Maddie_Background.yy",},"order":2,},
     {"id":{"name":"obj_Activity_VideoCall","path":"objects/obj_Activity_VideoCall/obj_Activity_VideoCall.yy",},"order":1,},
     {"id":{"name":"spr_Activity_Park","path":"sprites/spr_Activity_Park/spr_Activity_Park.yy",},"order":6,},

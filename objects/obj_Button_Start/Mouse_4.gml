@@ -5,4 +5,9 @@
 // Inherit the parent event
 event_inherited();
 
-room_goto(rm_Tutorial);
+if (!obj_GameController.var_tutorial_complete)
+	room_goto(rm_Tutorial);
+else
+	room_goto(rm_Activity_Select_Caitlin);
+	
+obj_GameController.var_tutorial_complete = true;

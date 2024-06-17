@@ -1,17 +1,16 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
-if (room == rm_Activity_Select_Caitlin)
+if (room == rm_Activity_Select_Maddie)
 {
 	// Set Pos
 	x = 114;
 	y = 170;
 	
 	// Bar
-	draw_sprite(spr_Caitlin_Bar, 0, x, y);
-	draw_sprite(spr_Caitlin_BarBackground, 0, x, y);
-	draw_sprite(spr_Caitlin_Zone, 0, x,  (y + 300 - var_character_happyness*3.5));
+	draw_sprite(spr_Maddie_Bar, 0, x, y);
+	draw_sprite(spr_Maddie_BarBackground, 0, x, y);
+	draw_sprite(spr_Maddie_Zone, 0, x,  (y + 300 - var_character_happyness*3.5));
 	
 	// Draw Main Art
 	draw_self();
@@ -27,13 +26,13 @@ if (room == rm_Activity_Select_Caitlin)
 if (room == rm_Weeks_End)
 {
 	// Set Pos
-	x = 989;
+	x = 529;
 	y = 150;
 	
 	// Bar
-	draw_sprite(spr_Caitlin_Bar, 0, x, y);
-	draw_sprite(spr_Caitlin_BarBackground, 0, x, y);
-	draw_sprite(spr_Caitlin_Zone, 0, x,  (y + 300 - var_character_happyness*3.5));
+	draw_sprite(spr_Maddie_Bar, 0, x, y);
+	draw_sprite(spr_Maddie_BarBackground, 0, x, y);
+	draw_sprite(spr_Maddie_Zone, 0, x,  (y + 300 - var_character_happyness*3.5));
 	
 	// Draw Main Art
 	draw_self();
@@ -45,9 +44,3 @@ if (room == rm_Weeks_End)
 	draw_set_valign(fa_middle);
 	draw_text(x + 155, y + 680, ("$" + string(var_money)));
 }
-
-
-
-
-
-
