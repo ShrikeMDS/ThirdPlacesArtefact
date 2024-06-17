@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_Maddie",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_Maddie_Background",
+    "path": "sprites/spr_Maddie_Background/spr_Maddie_Background.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

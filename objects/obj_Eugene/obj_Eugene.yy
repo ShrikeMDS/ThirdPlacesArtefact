@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_Eugene",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_Eugene_Background",
+    "path": "sprites/spr_Eugene_Background/spr_Eugene_Background.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

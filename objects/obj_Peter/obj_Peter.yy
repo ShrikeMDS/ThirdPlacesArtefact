@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_Peter",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_Peter_Background",
+    "path": "sprites/spr_Peter_Background/spr_Peter_Background.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

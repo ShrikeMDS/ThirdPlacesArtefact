@@ -10,7 +10,7 @@ if (room == rm_Tutorial)
 
 	if (Tutorial_Text_Num == array_length(Tutorial_Text))
 	{
-	    room_goto(rm_Activity_Select);
+	    room_goto(rm_Activity_Select_Caitlin);
 	}
 	else if (room == rm_Tutorial)
 	{
@@ -80,10 +80,25 @@ if (room == rm_Tutorial)
 	}
 }
 
-if (room == rm_Activity_Select)
+if (room == rm_Activity_Select_Caitlin)
+{
+	room_goto(rm_Activity_Select_Eugene)
+}
+if (room == rm_Activity_Select_Eugene)
+{
+	room_goto(rm_Activity_Select_Maddie)
+}
+
+if (room == rm_Activity_Select_Maddie)
+{
+	room_goto(rm_Activity_Select_Peter)
+}
+
+if (room == rm_Activity_Select_Peter)
 {
 	room_goto(rm_Weeks_End)
 }
+
 
 if (room == rm_Weeks_End)
 {
