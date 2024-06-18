@@ -32,7 +32,7 @@ if (room == rm_Weeks_End)
 	// Bar
 	draw_sprite(spr_Eugene_BarBackground, 0, x, y);
 	draw_sprite(spr_Eugene_Zone, 0, x,  (y + 300 - var_character_ideal_happiness *3.5));
-	draw_healthbar(x + 322, y + 170, x + 375, y + 646, var_character_happyness, c_black, #23BD47, #4364F8, 3, false, false);
+	draw_healthbar(x + 322, y + 170, x + 375, y + 646, var_character_happyness, c_black, #23BD47, #23BD47, 3, false, false);
 	
 	// Draw Main Art
 	draw_self();

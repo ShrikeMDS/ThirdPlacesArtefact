@@ -4,7 +4,12 @@
 // Disable player movement
 can_move = false;
 
-// Make obj_EndResult visible
+// When obj_EndResult becomes visible
 with (obj_EndResult) {
     visible = true;
+}
+
+// Hide or disable the forfeit button
+with (obj_Forfeit) {
+    visible = false; // Makes the button invisible
 }

@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_Arrow_3",
   "spriteId": {
-    "name": "spr_BackButton",
-    "path": "sprites/spr_BackButton/spr_BackButton.yy",
+    "name": "spr_Arrow",
+    "path": "sprites/spr_Arrow/spr_Arrow.yy",
   },
   "solid": false,
   "visible": true,

@@ -4,4 +4,5 @@
 
 with (obj_Player) {
     sprite_index = spr_Player_Eugene; // Replace the sprite
+    update_button_states(); // Update the button states
 }
