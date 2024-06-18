@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_EndResult",
   "spriteId": {
-    "name": "spr_MiniGame_EndResult",
-    "path": "sprites/spr_MiniGame_EndResult/spr_MiniGame_EndResult.yy",
+    "name": "spr_Result_Messages",
+    "path": "sprites/spr_Result_Messages/spr_Result_Messages.yy",
   },
   "solid": false,
   "visible": false,
