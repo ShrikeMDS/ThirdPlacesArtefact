@@ -31,7 +31,7 @@
   "properties": [],
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"var_cost","path":"objects/obj_Activity_Parant/obj_Activity_Parant.yy",},"objectId":{"name":"obj_Activity_Parant","path":"objects/obj_Activity_Parant/obj_Activity_Parant.yy",},"value":"40",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"var_gain","path":"objects/obj_Activity_Parant/obj_Activity_Parant.yy",},"objectId":{"name":"obj_Activity_Parant","path":"objects/obj_Activity_Parant/obj_Activity_Parant.yy",},"value":"25",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"var_gain","path":"objects/obj_Activity_Parant/obj_Activity_Parant.yy",},"objectId":{"name":"obj_Activity_Parant","path":"objects/obj_Activity_Parant/obj_Activity_Parant.yy",},"value":"30",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"var_id","path":"objects/obj_Activity_Parant/obj_Activity_Parant.yy",},"objectId":{"name":"obj_Activity_Parant","path":"objects/obj_Activity_Parant/obj_Activity_Parant.yy",},"value":"2",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"var_locked","path":"objects/obj_Activity_Parant/obj_Activity_Parant.yy",},"objectId":{"name":"obj_Activity_Parant","path":"objects/obj_Activity_Parant/obj_Activity_Parant.yy",},"value":"True",},
   ],
