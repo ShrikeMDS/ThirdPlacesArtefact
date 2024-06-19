@@ -35,7 +35,7 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"var_character_name","path":"objects/obj_Character_Parant/obj_Character_Parant.yy",},"objectId":{"name":"obj_Character_Parant","path":"objects/obj_Character_Parant/obj_Character_Parant.yy",},"value":"Peter",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"var_character_happyness","path":"objects/obj_Character_Parant/obj_Character_Parant.yy",},"objectId":{"name":"obj_Character_Parant","path":"objects/obj_Character_Parant/obj_Character_Parant.yy",},"value":"15",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"var_money","path":"objects/obj_Character_Parant/obj_Character_Parant.yy",},"objectId":{"name":"obj_Character_Parant","path":"objects/obj_Character_Parant/obj_Character_Parant.yy",},"value":"41",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"var_character_ideal_happiness","path":"objects/obj_Character_Parant/obj_Character_Parant.yy",},"objectId":{"name":"obj_Character_Parant","path":"objects/obj_Character_Parant/obj_Character_Parant.yy",},"value":"80",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"var_character_ideal_happiness","path":"objects/obj_Character_Parant/obj_Character_Parant.yy",},"objectId":{"name":"obj_Character_Parant","path":"objects/obj_Character_Parant/obj_Character_Parant.yy",},"value":"77",},
   ],
   "parent": {
     "name": "Characters",
