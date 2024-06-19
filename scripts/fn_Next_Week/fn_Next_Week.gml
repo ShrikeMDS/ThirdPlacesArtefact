@@ -20,13 +20,13 @@ function fn_Next_Week() {
     obj_Eugene.var_money += 10;
     obj_Maddie.var_money += 10;
     obj_Peter.var_money += 10;
-	obj_Caitlin.var_character_happyness -= 8;
-    obj_Eugene.var_character_happyness -= 8;
-    obj_Maddie.var_character_happyness -= 8;
-    obj_Peter.var_character_happyness -= 8;
+	obj_Caitlin.var_character_happyness -= 6;
+    obj_Eugene.var_character_happyness -= 6;
+    obj_Maddie.var_character_happyness -= 6;
+    obj_Peter.var_character_happyness -= 6;
 	
-	if (obj_Caitlin.var_character_happyness <=0 || obj_Eugene.var_character_happyness <=0 || obj_Maddie.var_character_happyness <=0 || obj_Peter.var_character_happyness <=0)
-	{
-		room_goto(rm_Game_Over)	
-	}
+	obj_Caitlin.var_selected_ID = 0;
+	obj_Eugene.var_selected_ID = 0;
+	obj_Maddie.var_selected_ID = 0;
+	obj_Peter.var_selected_ID = 0;
 }

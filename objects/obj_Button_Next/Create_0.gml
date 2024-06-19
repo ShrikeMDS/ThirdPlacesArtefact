@@ -30,3 +30,15 @@ if (room == rm_MiniGame_lvl1)
 {
 	visible = false;
 }
+if (room == rm_MiniGame_lvl2)
+{
+	visible = false;
+}
+if (room == rm_MiniGame_lvl3)
+{
+	visible = false;
+}
+if (room == rm_MiniGame_lvl4)
+{
+	visible = false;
+}
