@@ -9,7 +9,7 @@ if (room == rm_Activity_Select_Maddie)
 	
 	// Bar
 	draw_sprite(spr_Maddie_BarBackground, 0, x, y);
-	draw_sprite(spr_Maddie_Zone, 0, x,  (y + 300 - var_character_ideal_happiness *3.5));
+	draw_sprite(spr_Maddie_Zone, 0, x,  (y - var_character_ideal_happiness  * 4.76));
 	draw_healthbar(x + 322, y + 170, x + 375, y + 646, var_character_happyness, c_black, #F14338, #F14338, 3, false, false);
 	
 	// Draw Main Art
@@ -40,7 +40,7 @@ if (room == rm_Weeks_End)
 	
 	// Bar
 	draw_sprite(spr_Maddie_BarBackground, 0, x, y);
-	draw_sprite(spr_Maddie_Zone, 0, x,  (y + 300 - var_character_ideal_happiness *3.5));
+	draw_sprite(spr_Maddie_Zone, 0, x,  (y - var_character_ideal_happiness  * 4.76));
 	draw_healthbar(x + 322, y + 170, x + 375, y + 646, var_character_happyness, c_black, #F14338, #F14338, 3, false, false);
 	
 	// Draw Main Art

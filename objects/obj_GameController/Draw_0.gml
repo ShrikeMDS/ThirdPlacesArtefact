@@ -7,8 +7,8 @@ if (room == rm_Weeks_End)
 }
 
 function is_happiness_in_ideal_range(character) {
-    return (character.var_character_happyness <= character.var_character_ideal_happiness + 10) && 
-           (character.var_character_happyness >= character.var_character_ideal_happiness - 10);
+    return (character.var_character_happyness <= character.var_character_ideal_happiness + 6) && 
+           (character.var_character_happyness >= character.var_character_ideal_happiness - 6);
 }
 
 if (room == rm_Game_Over)
