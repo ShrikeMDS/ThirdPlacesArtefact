@@ -4,4 +4,4 @@
 
 // Change the sprite frame to the pressed state
 image_index = 1;
-
+event_inherited()

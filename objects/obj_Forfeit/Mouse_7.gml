@@ -6,16 +6,8 @@
 image_index = 1;
 
 visible = false;
-
-// Make obj_EndResult visible
-with (obj_EndResult) {
-    visible = true;
-}
-
-// Make obj_EndResult visible
-with (obj_Button_Next) {
-    visible = true;
-}
+audio_play_sound(snd_button, 0, false);
+room_goto(rm_Activity_Select_Caitlin);
 
 // Disable player movement
 with (obj_Player) {

@@ -13,8 +13,17 @@ if (room == rm_Activity_Select_Caitlin)
 	draw_sprite(spr_Caitlin_Zone, 0, x,  (y + 300 - var_character_ideal_happiness *3.5));
 	draw_healthbar(x + 322, y + 170, x + 375, y + 646, var_character_happyness, c_black, #4364F8, #4364F8, 3, false, false);
 	
-	// Draw Main Art
+		// Draw Main Art
 	draw_self();
+	
+	if (var_character_happyness <= var_character_ideal_happiness + 10 && var_character_happyness >= var_character_ideal_happiness - 10  )
+	{
+		draw_sprite(spr_tick, 0, x, y);
+	}
+	else
+	{
+		draw_sprite(spr_cross, 0, x, y);
+	}
 	
 	// Money Text
 	draw_set_font(fnt_Money);
@@ -37,6 +46,15 @@ if (room == rm_Weeks_End)
 	
 	// Draw Main Art
 	draw_self();
+	
+	if (var_character_happyness <= var_character_ideal_happiness + 10 && var_character_happyness >= var_character_ideal_happiness - 10  )
+	{
+		draw_sprite(spr_tick, 0, x, y);
+	}
+	else
+	{
+		draw_sprite(spr_cross, 0, x, y);
+	}
 	
 	// Money Text
 	draw_set_font(fnt_Money);

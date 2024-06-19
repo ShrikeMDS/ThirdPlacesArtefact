@@ -124,6 +124,18 @@ if (room == rm_Weeks_End)
 	{
 		room_goto(rm_MiniGame_lvl1)
 	}
+	if (obj_GameController.var_current_week == 2)
+	{
+		room_goto(rm_MiniGame_lvl2)
+	}
+	if (obj_GameController.var_current_week == 3)
+	{
+		room_goto(rm_MiniGame_lvl3)
+	}
+	if (obj_GameController.var_current_week == 4)
+	{
+		room_goto(rm_MiniGame_lvl4)
+	}
 }
 
 // minigame - Restart loop

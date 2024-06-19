@@ -3,31 +3,36 @@
 
 if (!var_locked)
 {
-	
-
-	show_debug_message("Selected activity changed ");
-
-	image_xscale = 1.1;
-	image_yscale = 1.1;
-	
 	if (room == rm_Activity_Select_Caitlin)
 	{
+		audio_play_sound(snd_button, 0, false);
+		show_debug_message("Selected activity changed ");
 		obj_Caitlin.var_selected_gain = var_gain;
 		obj_Caitlin.var_selected_cost = var_cost;
+		obj_Caitlin.var_selected_ID = var_id;
 	}
-	if (room == rm_Activity_Select_Eugene)
+	else if (room == rm_Activity_Select_Eugene)
 	{
+		audio_play_sound(snd_button, 0, false);
+		show_debug_message("Selected activity changed ");
 		obj_Eugene.var_selected_gain = var_gain;
 		obj_Eugene.var_selected_cost = var_cost;
+		obj_Eugene.var_selected_ID = var_id;
 	}
-	if (room == rm_Activity_Select_Maddie)
+	else if (room == rm_Activity_Select_Maddie)
 	{
+		audio_play_sound(snd_button, 0, false);
+		show_debug_message("Selected activity changed ");
 		obj_Maddie.var_selected_gain = var_gain;
 		obj_Maddie.var_selected_cost = var_cost;
+		obj_Maddie.var_selected_ID = var_id;
 	}
-	if (room == rm_Activity_Select_Peter)
+	else if (room == rm_Activity_Select_Peter)
 	{
+		audio_play_sound(snd_button, 0, false);
+		show_debug_message("Selected activity changed ");
 		obj_Peter.var_selected_gain = var_gain;
 		obj_Peter.var_selected_cost = var_cost;
+		obj_Peter.var_selected_ID = var_id;
 	}
 }

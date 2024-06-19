@@ -16,10 +16,14 @@ function fn_Next_Week() {
     obj_GameController.var_current_week++;
 	
 	// Adding Base Income
-	obj_Caitlin.var_money += 5;
-    obj_Eugene.var_money += 12;
-    obj_Maddie.var_money += obj_Maddie.var_money * 0.15 + 1;
+	obj_Caitlin.var_money += 10;
+    obj_Eugene.var_money += 10;
+    obj_Maddie.var_money += 10;
     obj_Peter.var_money += 10;
+	obj_Caitlin.var_character_happyness -= 8;
+    obj_Eugene.var_character_happyness -= 8;
+    obj_Maddie.var_character_happyness -= 8;
+    obj_Peter.var_character_happyness -= 8;
 	
 	if (obj_Caitlin.var_character_happyness <=0 || obj_Eugene.var_character_happyness <=0 || obj_Maddie.var_character_happyness <=0 || obj_Peter.var_character_happyness <=0)
 	{

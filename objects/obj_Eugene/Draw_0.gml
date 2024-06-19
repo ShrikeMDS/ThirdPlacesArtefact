@@ -15,6 +15,15 @@ if (room == rm_Activity_Select_Eugene)
 	// Draw Main Art
 	draw_self();
 	
+	if (var_character_happyness <= var_character_ideal_happiness + 10 && var_character_happyness >= var_character_ideal_happiness - 10  )
+	{
+		draw_sprite(spr_tick, 0, x, y);
+	}
+	else
+	{
+		draw_sprite(spr_cross, 0, x, y);
+	}
+	
 	// Money Text
 	draw_set_font(fnt_Money);
 	draw_set_color(c_black);
@@ -36,6 +45,15 @@ if (room == rm_Weeks_End)
 	
 	// Draw Main Art
 	draw_self();
+	
+	if (var_character_happyness <= var_character_ideal_happiness + 10 && var_character_happyness >= var_character_ideal_happiness - 10  )
+	{
+		draw_sprite(spr_tick, 0, x, y);
+	}
+	else
+	{
+		draw_sprite(spr_cross, 0, x, y);
+	}
 	
 	// Money Text
 	draw_set_font(fnt_Money);
