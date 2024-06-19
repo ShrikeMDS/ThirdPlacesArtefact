@@ -119,9 +119,3 @@ if (room == rm_Weeks_End)
 {
 	room_goto(rm_MainMenu);
 }
-
-if (room == rm_Game_Over)
-{
-	game_restart()
-}
-	

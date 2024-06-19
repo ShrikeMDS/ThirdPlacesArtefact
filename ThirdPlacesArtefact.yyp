@@ -68,6 +68,7 @@
     {"id":{"name":"spr_Base_Background","path":"sprites/spr_Base_Background/spr_Base_Background.yy",},"order":0,},
     {"id":{"name":"spr_Forfeit","path":"sprites/spr_Forfeit/spr_Forfeit.yy",},"order":12,},
     {"id":{"name":"spr_Sprite_Peter","path":"sprites/spr_Sprite_Peter/spr_Sprite_Peter.yy",},"order":10,},
+    {"id":{"name":"spr_ArrowKeys","path":"sprites/spr_ArrowKeys/spr_ArrowKeys.yy",},"order":14,},
     {"id":{"name":"obj_Button_Back","path":"objects/obj_Button_Back/obj_Button_Back.yy",},"order":4,},
     {"id":{"name":"spr_Activity_Selected","path":"sprites/spr_Activity_Selected/spr_Activity_Selected.yy",},"order":9,},
     {"id":{"name":"obj_Activity_Mall","path":"objects/obj_Activity_Mall/obj_Activity_Mall.yy",},"order":5,},
